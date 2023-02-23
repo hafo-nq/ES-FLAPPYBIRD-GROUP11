@@ -1,0 +1,7 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../TouchGFX/gui/include/gui/endscreen_screen/EndScreenView.hpp:11:13:EndScreenView::~EndScreenView()	0	static
+D:/HeNhung/FlappyBird/TouchGFX/gui/src/endscreen_screen/EndScreenView.cpp:18:6:virtual void EndScreenView::tearDownScreen()	0	static
+D:/HeNhung/FlappyBird/TouchGFX/gui/src/endscreen_screen/EndScreenView.cpp:13:6:virtual void EndScreenView::setupScreen()	0	static
+../../TouchGFX/gui/include/gui/endscreen_screen/EndScreenView.hpp:11:13:virtual EndScreenView::~EndScreenView()	8	static
+D:/HeNhung/FlappyBird/TouchGFX/gui/src/endscreen_screen/EndScreenView.cpp:25:6:virtual void EndScreenView::handleTickEvent()	24	static
+D:/HeNhung/FlappyBird/TouchGFX/gui/src/endscreen_screen/EndScreenView.cpp:5:1:EndScreenView::EndScreenView()	8	static
