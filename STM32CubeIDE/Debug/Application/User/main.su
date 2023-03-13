@@ -13,5 +13,5 @@ D:/HeNhung/FlappyBird/Core/Src/main.c:869:6:LCD_IO_WriteData	16	static
 D:/HeNhung/FlappyBird/Core/Src/main.c:885:6:LCD_IO_WriteReg	16	static
 D:/HeNhung/FlappyBird/Core/Src/main.c:904:10:LCD_IO_ReadData	32	static
 D:/HeNhung/FlappyBird/Core/Src/main.c:931:6:LCD_Delay	0	static
-D:/HeNhung/FlappyBird/Core/Src/main.c:978:6:HAL_TIM_PeriodElapsedCallback	0	static
-D:/HeNhung/FlappyBird/Core/Src/main.c:995:6:Error_Handler	0	static
+D:/HeNhung/FlappyBird/Core/Src/main.c:980:6:HAL_TIM_PeriodElapsedCallback	0	static
+D:/HeNhung/FlappyBird/Core/Src/main.c:997:6:Error_Handler	0	static

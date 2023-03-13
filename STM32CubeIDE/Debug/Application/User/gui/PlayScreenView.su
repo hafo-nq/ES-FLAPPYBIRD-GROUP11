@@ -1,12 +1,12 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
 ../../TouchGFX/gui/include/gui/playscreen_screen/PlayScreenView.hpp:12:13:PlayScreenView::~PlayScreenView()	0	static
-D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:91:6:virtual void PlayScreenView::tearDownScreen()	0	static
-D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:86:6:virtual void PlayScreenView::setupScreen()	0	static
+D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:102:6:virtual void PlayScreenView::tearDownScreen()	0	static
+D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:97:6:virtual void PlayScreenView::setupScreen()	0	static
 ../../TouchGFX/gui/include/gui/playscreen_screen/PlayScreenView.hpp:12:13:virtual PlayScreenView::~PlayScreenView()	8	static
-D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:17:6:void movePipe(touchgfx::Container&)	16	static
-D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:31:6:void moveGround(touchgfx::Image&)	0	static
-D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:40:6:bool checkOverlap(int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t)	8	static
-D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:49:6:bool checkCollision(touchgfx::AnimatedImage&, touchgfx::Container&, touchgfx::Container&)	20	static
-D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:100:6:virtual void PlayScreenView::handleTickEvent()	40	static
-D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:67:6:bool checkGetScore(touchgfx::AnimatedImage&, touchgfx::Container&, touchgfx::Container&)	0	static
-D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:78:1:PlayScreenView::PlayScreenView()	8	static
+D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:25:6:void movePipe(touchgfx::Container&)	16	static
+D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:40:6:void moveGround(touchgfx::Image&)	0	static
+D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:49:6:bool checkOverlap(int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t)	8	static
+D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:59:6:bool checkCollision(touchgfx::AnimatedImage&, touchgfx::Container&, touchgfx::Container&)	20	static
+D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:111:6:virtual void PlayScreenView::handleTickEvent()	40	static
+D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:78:6:bool checkGetScore(touchgfx::AnimatedImage&, touchgfx::Container&, touchgfx::Container&)	0	static
+D:/HeNhung/FlappyBird/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:89:1:PlayScreenView::PlayScreenView()	8	static

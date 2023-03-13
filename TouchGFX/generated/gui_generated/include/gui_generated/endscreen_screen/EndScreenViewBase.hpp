@@ -30,12 +30,12 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
-    touchgfx::ScalableImage background;
-    touchgfx::ScalableImage gameovertxt;
-    touchgfx::TextArea textArea1;
+    touchgfx::ScalableImage backgroundimg;
+    touchgfx::ScalableImage gameoverimg;
+    touchgfx::TextArea yourscoretxt;
     touchgfx::TextAreaWithOneWildcard finalscoretxt;
-    touchgfx::Image image1;
-    touchgfx::TextArea textArea3;
+    touchgfx::Image groundimg;
+    touchgfx::TextArea restarttxt;
 
     /*
      * Wildcard Buffers

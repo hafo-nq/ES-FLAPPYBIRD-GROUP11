@@ -12,18 +12,18 @@ EndScreenViewBase::EndScreenViewBase()
     __background.setPosition(0, 0, 240, 320);
     __background.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
 
-    background.setBitmap(touchgfx::Bitmap(BITMAP_BACKGROUND_DAY_ID));
-    background.setPosition(0, 0, 240, 320);
-    background.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    backgroundimg.setBitmap(touchgfx::Bitmap(BITMAP_BACKGROUND_DAY_ID));
+    backgroundimg.setPosition(0, 0, 240, 320);
+    backgroundimg.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
 
-    gameovertxt.setBitmap(touchgfx::Bitmap(BITMAP_GAMEOVER_ID));
-    gameovertxt.setPosition(24, 84, 192, 42);
-    gameovertxt.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    gameoverimg.setBitmap(touchgfx::Bitmap(BITMAP_GAMEOVER_ID));
+    gameoverimg.setPosition(24, 84, 192, 42);
+    gameoverimg.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
 
-    textArea1.setXY(42, 160);
-    textArea1.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
-    textArea1.setLinespacing(0);
-    textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_ELCD));
+    yourscoretxt.setXY(42, 160);
+    yourscoretxt.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    yourscoretxt.setLinespacing(0);
+    yourscoretxt.setTypedText(touchgfx::TypedText(T___SINGLEUSE_ELCD));
 
     finalscoretxt.setXY(182, 160);
     finalscoretxt.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
@@ -33,21 +33,21 @@ EndScreenViewBase::EndScreenViewBase()
     finalscoretxt.resizeToCurrentText();
     finalscoretxt.setTypedText(touchgfx::TypedText(T___SINGLEUSE_BWXW));
 
-    image1.setXY(-21, 288);
-    image1.setBitmap(touchgfx::Bitmap(BITMAP_BASE_ID));
+    groundimg.setXY(-21, 288);
+    groundimg.setBitmap(touchgfx::Bitmap(BITMAP_BASE_ID));
 
-    textArea3.setXY(10, 246);
-    textArea3.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    textArea3.setLinespacing(0);
-    textArea3.setTypedText(touchgfx::TypedText(T___SINGLEUSE_ZHAY));
+    restarttxt.setXY(10, 246);
+    restarttxt.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    restarttxt.setLinespacing(0);
+    restarttxt.setTypedText(touchgfx::TypedText(T___SINGLEUSE_ZHAY));
 
     add(__background);
-    add(background);
-    add(gameovertxt);
-    add(textArea1);
+    add(backgroundimg);
+    add(gameoverimg);
+    add(yourscoretxt);
     add(finalscoretxt);
-    add(image1);
-    add(textArea3);
+    add(groundimg);
+    add(restarttxt);
 }
 
 void EndScreenViewBase::setupScreen()

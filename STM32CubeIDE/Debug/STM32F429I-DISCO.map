@@ -15579,7 +15579,7 @@ LOAD d:/app/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ex
  .debug_aranges
                 0x0000000000002ac0       0xc8 ./Middlewares/FreeRTOS/timers.o
 
-.debug_str      0x0000000000000000   0x109f13
+.debug_str      0x0000000000000000   0x109f10
  .debug_str     0x0000000000000000       0x66 ./Application/Startup/startup_stm32f429zitx.o
  .debug_str     0x0000000000000066     0x2d42 ./Application/User/TouchGFX/App/app_touchgfx.o
                                        0x2d79 (size before relaxing)
@@ -15615,173 +15615,173 @@ LOAD d:/app/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ex
                                        0x60bf (size before relaxing)
  .debug_str     0x00000000000f94ab      0xff0 ./Application/User/generated/CachedFont.o
                                        0x6f6e (size before relaxing)
- .debug_str     0x00000000000fa49b     0x1cfb ./Application/User/generated/EndScreenViewBase.o
-                                      0x11174 (size before relaxing)
- .debug_str     0x00000000000fc196       0x65 ./Application/User/generated/Font_arial_20_4bpp_0.o
+ .debug_str     0x00000000000fa49b     0x1d06 ./Application/User/generated/EndScreenViewBase.o
+                                      0x1117e (size before relaxing)
+ .debug_str     0x00000000000fc1a1       0x65 ./Application/User/generated/Font_arial_20_4bpp_0.o
                                        0x4bb2 (size before relaxing)
- .debug_str     0x00000000000fc1fb       0x6f ./Application/User/generated/Font_flappybird_12_4bpp_0.o
+ .debug_str     0x00000000000fc206       0x6f ./Application/User/generated/Font_flappybird_12_4bpp_0.o
                                        0x4bbc (size before relaxing)
- .debug_str     0x00000000000fc26a       0x6f ./Application/User/generated/Font_flappybird_20_4bpp_0.o
+ .debug_str     0x00000000000fc275       0x6f ./Application/User/generated/Font_flappybird_20_4bpp_0.o
                                        0x4bbc (size before relaxing)
- .debug_str     0x00000000000fc2d9       0x6f ./Application/User/generated/Font_flappybird_43_4bpp_0.o
+ .debug_str     0x00000000000fc2e4       0x6f ./Application/User/generated/Font_flappybird_43_4bpp_0.o
                                        0x4bbc (size before relaxing)
- .debug_str     0x00000000000fc348       0x69 ./Application/User/generated/Font_verdana_10_4bpp_0.o
+ .debug_str     0x00000000000fc353       0x69 ./Application/User/generated/Font_verdana_10_4bpp_0.o
                                        0x4bb6 (size before relaxing)
- .debug_str     0x00000000000fc3b1       0x69 ./Application/User/generated/Font_verdana_40_4bpp_0.o
+ .debug_str     0x00000000000fc3bc       0x69 ./Application/User/generated/Font_verdana_40_4bpp_0.o
                                        0x4bb6 (size before relaxing)
- .debug_str     0x00000000000fc41a     0x18c9 ./Application/User/generated/FrontendApplicationBase.o
-                                      0x196fe (size before relaxing)
- .debug_str     0x00000000000fdce3      0x1c6 ./Application/User/generated/GeneratedFont.o
+ .debug_str     0x00000000000fc425     0x18bb ./Application/User/generated/FrontendApplicationBase.o
+                                      0x196f0 (size before relaxing)
+ .debug_str     0x00000000000fdce0      0x1c6 ./Application/User/generated/GeneratedFont.o
                                        0x612c (size before relaxing)
- .debug_str     0x00000000000fdea9       0x63 ./Application/User/generated/Kerning_arial_20_4bpp.o
+ .debug_str     0x00000000000fdea6       0x63 ./Application/User/generated/Kerning_arial_20_4bpp.o
                                        0x52e5 (size before relaxing)
- .debug_str     0x00000000000fdf0c       0x6d ./Application/User/generated/Kerning_flappybird_12_4bpp.o
+ .debug_str     0x00000000000fdf09       0x6d ./Application/User/generated/Kerning_flappybird_12_4bpp.o
                                        0x52ef (size before relaxing)
- .debug_str     0x00000000000fdf79       0x6d ./Application/User/generated/Kerning_flappybird_20_4bpp.o
+ .debug_str     0x00000000000fdf76       0x6d ./Application/User/generated/Kerning_flappybird_20_4bpp.o
                                        0x52ef (size before relaxing)
- .debug_str     0x00000000000fdfe6       0x6d ./Application/User/generated/Kerning_flappybird_43_4bpp.o
+ .debug_str     0x00000000000fdfe3       0x6d ./Application/User/generated/Kerning_flappybird_43_4bpp.o
                                        0x52ef (size before relaxing)
- .debug_str     0x00000000000fe053       0x67 ./Application/User/generated/Kerning_verdana_10_4bpp.o
+ .debug_str     0x00000000000fe050       0x67 ./Application/User/generated/Kerning_verdana_10_4bpp.o
                                        0x52e9 (size before relaxing)
- .debug_str     0x00000000000fe0ba       0x67 ./Application/User/generated/Kerning_verdana_40_4bpp.o
+ .debug_str     0x00000000000fe0b7       0x67 ./Application/User/generated/Kerning_verdana_40_4bpp.o
                                        0x52e9 (size before relaxing)
- .debug_str     0x00000000000fe121       0x4c ./Application/User/generated/LanguageGb.o
+ .debug_str     0x00000000000fe11e       0x4c ./Application/User/generated/LanguageGb.o
                                        0x4cf2 (size before relaxing)
- .debug_str     0x00000000000fe16d      0x161 ./Application/User/generated/PlayScreenViewBase.o
+ .debug_str     0x00000000000fe16a      0x161 ./Application/User/generated/PlayScreenViewBase.o
                                       0x11e07 (size before relaxing)
- .debug_str     0x00000000000fe2ce      0x136 ./Application/User/generated/Table_arial_20_4bpp.o
+ .debug_str     0x00000000000fe2cb      0x136 ./Application/User/generated/Table_arial_20_4bpp.o
                                        0x6129 (size before relaxing)
- .debug_str     0x00000000000fe404       0xc1 ./Application/User/generated/Table_flappybird_12_4bpp.o
+ .debug_str     0x00000000000fe401       0xc1 ./Application/User/generated/Table_flappybird_12_4bpp.o
                                        0x6136 (size before relaxing)
- .debug_str     0x00000000000fe4c5       0xc1 ./Application/User/generated/Table_flappybird_20_4bpp.o
+ .debug_str     0x00000000000fe4c2       0xc1 ./Application/User/generated/Table_flappybird_20_4bpp.o
                                        0x6136 (size before relaxing)
- .debug_str     0x00000000000fe586       0xc1 ./Application/User/generated/Table_flappybird_43_4bpp.o
+ .debug_str     0x00000000000fe583       0xc1 ./Application/User/generated/Table_flappybird_43_4bpp.o
                                        0x6136 (size before relaxing)
- .debug_str     0x00000000000fe647       0xb2 ./Application/User/generated/Table_verdana_10_4bpp.o
+ .debug_str     0x00000000000fe644       0xb2 ./Application/User/generated/Table_verdana_10_4bpp.o
                                        0x611e (size before relaxing)
- .debug_str     0x00000000000fe6f9       0xb2 ./Application/User/generated/Table_verdana_40_4bpp.o
+ .debug_str     0x00000000000fe6f6       0xb2 ./Application/User/generated/Table_verdana_40_4bpp.o
                                        0x611e (size before relaxing)
- .debug_str     0x00000000000fe7ab      0x187 ./Application/User/generated/Texts.o
+ .debug_str     0x00000000000fe7a8      0x187 ./Application/User/generated/Texts.o
                                        0xd3b2 (size before relaxing)
- .debug_str     0x00000000000fe932      0x108 ./Application/User/generated/TypedTextDatabase.o
+ .debug_str     0x00000000000fe92f      0x108 ./Application/User/generated/TypedTextDatabase.o
                                        0x6555 (size before relaxing)
- .debug_str     0x00000000000fea3a       0x4d ./Application/User/generated/image_background-day.o
+ .debug_str     0x00000000000fea37       0x4d ./Application/User/generated/image_background-day.o
                                        0x369c (size before relaxing)
- .debug_str     0x00000000000fea87       0x4f ./Application/User/generated/image_background-night.o
+ .debug_str     0x00000000000fea84       0x4f ./Application/User/generated/image_background-night.o
                                        0x36a0 (size before relaxing)
- .debug_str     0x00000000000fead6       0x43 ./Application/User/generated/image_base.o
+ .debug_str     0x00000000000fead3       0x43 ./Application/User/generated/image_base.o
                                        0x3688 (size before relaxing)
- .debug_str     0x00000000000feb19       0x50 ./Application/User/generated/image_bluebird-downflap.o
+ .debug_str     0x00000000000feb16       0x50 ./Application/User/generated/image_bluebird-downflap.o
                                        0x36a2 (size before relaxing)
- .debug_str     0x00000000000feb69       0x4f ./Application/User/generated/image_bluebird-midflap.o
+ .debug_str     0x00000000000feb66       0x4f ./Application/User/generated/image_bluebird-midflap.o
                                        0x36a0 (size before relaxing)
- .debug_str     0x00000000000febb8       0x4e ./Application/User/generated/image_bluebird-upflap.o
+ .debug_str     0x00000000000febb5       0x4e ./Application/User/generated/image_bluebird-upflap.o
                                        0x369e (size before relaxing)
- .debug_str     0x00000000000fec06       0x4e ./Application/User/generated/image_down-pipe-green.o
+ .debug_str     0x00000000000fec03       0x4e ./Application/User/generated/image_down-pipe-green.o
                                        0x369e (size before relaxing)
- .debug_str     0x00000000000fec54       0x47 ./Application/User/generated/image_gameover.o
+ .debug_str     0x00000000000fec51       0x47 ./Application/User/generated/image_gameover.o
                                        0x3690 (size before relaxing)
- .debug_str     0x00000000000fec9b       0x46 ./Application/User/generated/image_message.o
+ .debug_str     0x00000000000fec98       0x46 ./Application/User/generated/image_message.o
                                        0x368e (size before relaxing)
- .debug_str     0x00000000000fece1       0x41 ./Application/User/generated/image_n0.o
+ .debug_str     0x00000000000fecde       0x41 ./Application/User/generated/image_n0.o
                                        0x3684 (size before relaxing)
- .debug_str     0x00000000000fed22       0x41 ./Application/User/generated/image_n1.o
+ .debug_str     0x00000000000fed1f       0x41 ./Application/User/generated/image_n1.o
                                        0x3684 (size before relaxing)
- .debug_str     0x00000000000fed63       0x41 ./Application/User/generated/image_n2.o
+ .debug_str     0x00000000000fed60       0x41 ./Application/User/generated/image_n2.o
                                        0x3684 (size before relaxing)
- .debug_str     0x00000000000feda4       0x41 ./Application/User/generated/image_n3.o
+ .debug_str     0x00000000000feda1       0x41 ./Application/User/generated/image_n3.o
                                        0x3684 (size before relaxing)
- .debug_str     0x00000000000fede5       0x41 ./Application/User/generated/image_n4.o
+ .debug_str     0x00000000000fede2       0x41 ./Application/User/generated/image_n4.o
                                        0x3684 (size before relaxing)
- .debug_str     0x00000000000fee26       0x41 ./Application/User/generated/image_n5.o
+ .debug_str     0x00000000000fee23       0x41 ./Application/User/generated/image_n5.o
                                        0x3684 (size before relaxing)
- .debug_str     0x00000000000fee67       0x41 ./Application/User/generated/image_n6.o
+ .debug_str     0x00000000000fee64       0x41 ./Application/User/generated/image_n6.o
                                        0x3684 (size before relaxing)
- .debug_str     0x00000000000feea8       0x41 ./Application/User/generated/image_n7.o
+ .debug_str     0x00000000000feea5       0x41 ./Application/User/generated/image_n7.o
                                        0x3684 (size before relaxing)
- .debug_str     0x00000000000feee9       0x41 ./Application/User/generated/image_n8.o
+ .debug_str     0x00000000000feee6       0x41 ./Application/User/generated/image_n8.o
                                        0x3684 (size before relaxing)
- .debug_str     0x00000000000fef2a       0x41 ./Application/User/generated/image_n9.o
+ .debug_str     0x00000000000fef27       0x41 ./Application/User/generated/image_n9.o
                                        0x3684 (size before relaxing)
- .debug_str     0x00000000000fef6b       0x47 ./Application/User/generated/image_pipe-red.o
+ .debug_str     0x00000000000fef68       0x47 ./Application/User/generated/image_pipe-red.o
                                        0x3690 (size before relaxing)
- .debug_str     0x00000000000fefb2       0x46 ./Application/User/generated/image_playbtn.o
+ .debug_str     0x00000000000fefaf       0x46 ./Application/User/generated/image_playbtn.o
                                        0x368e (size before relaxing)
- .debug_str     0x00000000000feff8       0x4f ./Application/User/generated/image_redbird-downflap.o
+ .debug_str     0x00000000000feff5       0x4f ./Application/User/generated/image_redbird-downflap.o
                                        0x36a0 (size before relaxing)
- .debug_str     0x00000000000ff047       0x4e ./Application/User/generated/image_redbird-midflap.o
+ .debug_str     0x00000000000ff044       0x4e ./Application/User/generated/image_redbird-midflap.o
                                        0x369e (size before relaxing)
- .debug_str     0x00000000000ff095       0x4d ./Application/User/generated/image_redbird-upflap.o
+ .debug_str     0x00000000000ff092       0x4d ./Application/User/generated/image_redbird-upflap.o
                                        0x369c (size before relaxing)
- .debug_str     0x00000000000ff0e2       0x4c ./Application/User/generated/image_up-pipe-green.o
+ .debug_str     0x00000000000ff0df       0x4c ./Application/User/generated/image_up-pipe-green.o
                                        0x369a (size before relaxing)
- .debug_str     0x00000000000ff12e       0x52 ./Application/User/generated/image_yellowbird-downflap.o
+ .debug_str     0x00000000000ff12b       0x52 ./Application/User/generated/image_yellowbird-downflap.o
                                        0x36a6 (size before relaxing)
- .debug_str     0x00000000000ff180       0x51 ./Application/User/generated/image_yellowbird-midflap.o
+ .debug_str     0x00000000000ff17d       0x51 ./Application/User/generated/image_yellowbird-midflap.o
                                        0x36a4 (size before relaxing)
- .debug_str     0x00000000000ff1d1       0x50 ./Application/User/generated/image_yellowbird-upflap.o
+ .debug_str     0x00000000000ff1ce       0x50 ./Application/User/generated/image_yellowbird-upflap.o
                                        0x36a2 (size before relaxing)
- .debug_str     0x00000000000ff221       0xac ./Application/User/gui/EndScreenPresenter.o
-                                      0x10637 (size before relaxing)
- .debug_str     0x00000000000ff2cd       0x73 ./Application/User/gui/EndScreenView.o
-                                      0x15450 (size before relaxing)
- .debug_str     0x00000000000ff340       0x78 ./Application/User/gui/FrontendApplication.o
+ .debug_str     0x00000000000ff21e       0xac ./Application/User/gui/EndScreenPresenter.o
+                                      0x10641 (size before relaxing)
+ .debug_str     0x00000000000ff2ca       0x73 ./Application/User/gui/EndScreenView.o
+                                      0x1545a (size before relaxing)
+ .debug_str     0x00000000000ff33d       0x78 ./Application/User/gui/FrontendApplication.o
                                        0xdfd6 (size before relaxing)
- .debug_str     0x00000000000ff3b8       0x45 ./Application/User/gui/Model.o
+ .debug_str     0x00000000000ff3b5       0x45 ./Application/User/gui/Model.o
                                        0x3259 (size before relaxing)
- .debug_str     0x00000000000ff3fd       0x7e ./Application/User/gui/PlayScreenPresenter.o
+ .debug_str     0x00000000000ff3fa       0x7e ./Application/User/gui/PlayScreenPresenter.o
                                       0x11175 (size before relaxing)
- .debug_str     0x00000000000ff47b      0x22e ./Application/User/gui/PlayScreenView.o
+ .debug_str     0x00000000000ff478      0x22e ./Application/User/gui/PlayScreenView.o
                                       0x1617d (size before relaxing)
- .debug_str     0x00000000000ff6a9       0xef ./Drivers/BSP/Components/ili9341.o
+ .debug_str     0x00000000000ff6a6       0xef ./Drivers/BSP/Components/ili9341.o
                                        0x44e1 (size before relaxing)
- .debug_str     0x00000000000ff798      0x58d ./Drivers/BSP/Components/stmpe811.o
+ .debug_str     0x00000000000ff795      0x58d ./Drivers/BSP/Components/stmpe811.o
                                        0x4cda (size before relaxing)
- .debug_str     0x00000000000ffd25       0xaf ./Drivers/CMSIS/system_stm32f4xx.o
+ .debug_str     0x00000000000ffd22       0xaf ./Drivers/CMSIS/system_stm32f4xx.o
                                       0xd96f9 (size before relaxing)
- .debug_str     0x00000000000ffdd4      0x5aa ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o
+ .debug_str     0x00000000000ffdd1      0x5aa ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o
                                       0xda307 (size before relaxing)
- .debug_str     0x000000000010037e      0x2e9 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o
+ .debug_str     0x000000000010037b      0x2e9 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o
                                       0xd9fec (size before relaxing)
- .debug_str     0x0000000000100667       0xa2 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_crc.o
+ .debug_str     0x0000000000100664       0xa2 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_crc.o
                                       0xd96ff (size before relaxing)
- .debug_str     0x0000000000100709      0x375 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma2d.o
+ .debug_str     0x0000000000100706      0x375 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma2d.o
                                       0xd9cc0 (size before relaxing)
- .debug_str     0x0000000000100a7e      0x101 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o
+ .debug_str     0x0000000000100a7b      0x101 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o
                                       0xd985f (size before relaxing)
- .debug_str     0x0000000000100b7f      0xab3 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c.o
+ .debug_str     0x0000000000100b7c      0xab3 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c.o
                                       0xda6a1 (size before relaxing)
- .debug_str     0x0000000000101632       0x4e ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c_ex.o
+ .debug_str     0x000000000010162f       0x4e ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c_ex.o
                                       0xd9ab3 (size before relaxing)
- .debug_str     0x0000000000101680      0x408 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_ltdc.o
+ .debug_str     0x000000000010167d      0x408 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_ltdc.o
                                       0xd9d48 (size before relaxing)
- .debug_str     0x0000000000101a88      0x216 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o
+ .debug_str     0x0000000000101a85      0x216 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o
                                       0xd9b29 (size before relaxing)
- .debug_str     0x0000000000101c9e      0x146 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o
+ .debug_str     0x0000000000101c9b      0x146 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o
                                       0xd98df (size before relaxing)
- .debug_str     0x0000000000101de4      0x34f ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sdram.o
+ .debug_str     0x0000000000101de1      0x34f ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sdram.o
                                       0xd9e04 (size before relaxing)
- .debug_str     0x0000000000102133      0x552 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_spi.o
+ .debug_str     0x0000000000102130      0x552 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_spi.o
                                       0xd9f95 (size before relaxing)
- .debug_str     0x0000000000102685      0xe54 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.o
+ .debug_str     0x0000000000102682      0xe54 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.o
                                       0xdaa4b (size before relaxing)
- .debug_str     0x00000000001034d9      0x516 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.o
+ .debug_str     0x00000000001034d6      0x516 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.o
                                       0xda267 (size before relaxing)
- .debug_str     0x00000000001039ef      0xa46 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_fmc.o
+ .debug_str     0x00000000001039ec      0xa46 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_fmc.o
                                       0xda2ce (size before relaxing)
- .debug_str     0x0000000000104435     0x2f72 ./Middlewares/FreeRTOS/cmsis_os2.o
+ .debug_str     0x0000000000104432     0x2f72 ./Middlewares/FreeRTOS/cmsis_os2.o
                                       0xe4043 (size before relaxing)
- .debug_str     0x00000000001073a7      0x3a6 ./Middlewares/FreeRTOS/heap_4.o
+ .debug_str     0x00000000001073a4      0x3a6 ./Middlewares/FreeRTOS/heap_4.o
                                        0xafbb (size before relaxing)
- .debug_str     0x000000000010774d      0x135 ./Middlewares/FreeRTOS/list.o
+ .debug_str     0x000000000010774a      0x135 ./Middlewares/FreeRTOS/list.o
                                        0xa679 (size before relaxing)
- .debug_str     0x0000000000107882      0x831 ./Middlewares/FreeRTOS/port.o
+ .debug_str     0x000000000010787f      0x831 ./Middlewares/FreeRTOS/port.o
                                        0x85ea (size before relaxing)
- .debug_str     0x00000000001080b3      0x822 ./Middlewares/FreeRTOS/queue.o
+ .debug_str     0x00000000001080b0      0x822 ./Middlewares/FreeRTOS/queue.o
                                        0xc1ca (size before relaxing)
- .debug_str     0x00000000001088d5     0x1085 ./Middlewares/FreeRTOS/tasks.o
+ .debug_str     0x00000000001088d2     0x1085 ./Middlewares/FreeRTOS/tasks.o
                                        0xcd32 (size before relaxing)
- .debug_str     0x000000000010995a      0x5b9 ./Middlewares/FreeRTOS/timers.o
+ .debug_str     0x0000000000109957      0x5b9 ./Middlewares/FreeRTOS/timers.o
                                        0xc6f5 (size before relaxing)
 
 .debug_ranges   0x0000000000000000     0x43e0

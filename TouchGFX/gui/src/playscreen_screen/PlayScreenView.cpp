@@ -10,10 +10,18 @@ bool checkOverlap(int16_t,int16_t,int16_t,int16_t,int16_t,int16_t,int16_t,int16_
 bool checkCollision(touchgfx::AnimatedImage&, touchgfx::Container&, touchgfx::Container&);
 bool checkGetScore(touchgfx::AnimatedImage&, touchgfx::Container&, touchgfx::Container&);
 
+// để sinh ngẫu nhiên các pipe với vị trí theo trục dọc khác nhau
+// để đơn giản nhóm sử dụng mảng ngẫu nhiên độ dịch chuyển của pipe
 int16_t random_arr[50] = {-34, -10, -36, -47, -37, 2, 22, -33, -31, 43, 21, 11, 10, 41, 47, 28, 43, -31, -11, 10, 23, -12, -23, -33, -45, 3, -23, -46, -50, -19, -25, -30, -19, -45, -43, -31, -21, 13, 28, 47, 25, 2, 24, -21, -8, -2, -50, -14, 15};
 int16_t i = 0;
+
+// vận tốc của chim theo chiều dọc
 float vertSpeed;
 
+// khởi tạo
+uint16_t PlayScreenView::finalscore = 0;
+
+// hàm dịch chuyển các pipe
 void movePipe(touchgfx::Container &pipe)
 {
 	int16_t x = pipe.getX();
@@ -28,6 +36,7 @@ void movePipe(touchgfx::Container &pipe)
 	pipe.setX(x);
 }
 
+// hàm dịch chuyển mặt đất
 void moveGround(Image &groundimg)
 {
 	int16_t x = groundimg.getX();
@@ -36,7 +45,7 @@ void moveGround(Image &groundimg)
 	groundimg.setX(x);
 }
 
-
+// hàm kiểm tra 2 hình chữ nhật có giao nhau hay không
 bool checkOverlap(int16_t x11, int16_t y11, int16_t x12, int16_t y12,
  int16_t x21, int16_t y21, int16_t x22, int16_t y22)
 {
@@ -46,6 +55,7 @@ bool checkOverlap(int16_t x11, int16_t y11, int16_t x12, int16_t y12,
 	return false;
 }
 
+// hàm kiểm tra va chạm giữa bird và pipe
 bool checkCollision(touchgfx::AnimatedImage &birdimg, touchgfx::Container &pipe1, touchgfx::Container &pipe2)
 {
 	int16_t xbird = birdimg.getX(), ybird = birdimg.getY();
@@ -64,6 +74,7 @@ bool checkCollision(touchgfx::AnimatedImage &birdimg, touchgfx::Container &pipe1
 	return false;
 }
 
+// hàm kiểm tra ghi được điểm hay không
 bool checkGetScore(touchgfx::AnimatedImage &birdimg, touchgfx::Container &pipe1, touchgfx::Container &pipe2)
 {
 	int16_t xpipe1 = pipe1.getX();
@@ -95,7 +106,7 @@ void PlayScreenView::tearDownScreen()
 
 extern osMessageQueueId_t Queue1Handle;
 
-uint16_t PlayScreenView::finalscore = 0;
+
 
 void PlayScreenView::handleTickEvent()
 {
@@ -130,7 +141,7 @@ void PlayScreenView::handleTickEvent()
 		if(checkCollision(birdimg, pipe1, pipe2)){
 
 			finalscore = score;
-			static_cast<FrontendApplication*>(Application::getInstance())->handleKeyEvent(65); // keycode from image send
+			static_cast<FrontendApplication*>(Application::getInstance())->handleKeyEvent(65);
 
 		}
 		if(checkGetScore(birdimg, pipe1, pipe2)){

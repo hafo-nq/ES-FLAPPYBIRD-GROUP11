@@ -196,7 +196,7 @@
         "Components": [
           {
             "Type": "ScalableImage",
-            "Name": "background",
+            "Name": "backgroundimg",
             "Width": 240,
             "Height": 320,
             "Filename": "background-day.png",
@@ -204,7 +204,7 @@
           },
           {
             "Type": "ScalableImage",
-            "Name": "gameovertxt",
+            "Name": "gameoverimg",
             "X": 24,
             "Y": 84,
             "Width": 192,
@@ -214,7 +214,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "textArea1",
+            "Name": "yourscoretxt",
             "X": 42,
             "Y": 160,
             "Width": 117,
@@ -251,7 +251,7 @@
           },
           {
             "Type": "Image",
-            "Name": "image1",
+            "Name": "groundimg",
             "X": -21,
             "Y": 288,
             "Width": 336,
@@ -260,7 +260,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "textArea3",
+            "Name": "restarttxt",
             "X": 10,
             "Y": 246,
             "Width": 220,

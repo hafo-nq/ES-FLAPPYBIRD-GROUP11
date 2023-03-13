@@ -31,7 +31,7 @@ void EndScreenView::handleTickEvent()
 	if(count > 0){
 		osMessageQueueGet(Queue1Handle, &res, NULL, osWaitForever);
 		if(res == 'R'){
-			static_cast<FrontendApplication*>(Application::getInstance())->handleKeyEvent(65); // keycode from image send
+			static_cast<FrontendApplication*>(Application::getInstance())->handleKeyEvent(65);
 		}
 	}
 

@@ -45,17 +45,17 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  20 .debug_aranges 00002b88  00000000  00000000  002be090  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_str    00109f13  00000000  00000000  002c0c18  2**0
+ 21 .debug_str    00109f10  00000000  00000000  002c0c18  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_ranges 000043e0  00000000  00000000  003cab30  2**3
+ 22 .debug_ranges 000043e0  00000000  00000000  003cab28  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_loc    0002662e  00000000  00000000  003cef10  2**0
+ 23 .debug_loc    0002662e  00000000  00000000  003cef08  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_macro  0002f494  00000000  00000000  003f553e  2**0
+ 24 .debug_macro  0002f494  00000000  00000000  003f5536  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 25 .comment      000000cf  00000000  00000000  004249d2  2**0
+ 25 .comment      000000cf  00000000  00000000  004249ca  2**0
                   CONTENTS, READONLY
- 26 .debug_frame  00007c18  00000000  00000000  00424aa4  2**2
+ 26 .debug_frame  00007c18  00000000  00000000  00424a9c  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -6252,43 +6252,43 @@ EndScreenViewBase::EndScreenViewBase()
     {
         color = newColor;
  8002612:	f04f 437f 	mov.w	r3, #4278190080	; 0xff000000
-    background.setBitmap(touchgfx::Bitmap(BITMAP_BACKGROUND_DAY_ID));
+    backgroundimg.setBitmap(touchgfx::Bitmap(BITMAP_BACKGROUND_DAY_ID));
  8002616:	ee18 0a10 	vmov	r0, s16
  800261a:	66a3      	str	r3, [r4, #104]	; 0x68
  800261c:	a908      	add	r1, sp, #32
  800261e:	f8ad 5020 	strh.w	r5, [sp, #32]
  8002622:	f008 f9fe 	bl	800aa22 <_ZN8touchgfx5Image9setBitmapERKNS_6BitmapE>
-    background.setPosition(0, 0, 240, 320);
+    backgroundimg.setPosition(0, 0, 240, 320);
  8002626:	462a      	mov	r2, r5
  8002628:	23f0      	movs	r3, #240	; 0xf0
  800262a:	ee18 0a10 	vmov	r0, s16
  800262e:	f8cd b000 	str.w	fp, [sp]
  8002632:	4629      	mov	r1, r5
  8002634:	f7ff ff3c 	bl	80024b0 <_ZN8touchgfx8Drawable11setPositionEssss>
-    background.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    backgroundimg.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
  8002638:	ee18 0a10 	vmov	r0, s16
  800263c:	4629      	mov	r1, r5
  800263e:	f007 fb1b 	bl	8009c78 <_ZN8touchgfx13ScalableImage19setScalingAlgorithmENS0_16ScalingAlgorithmE>
-    gameovertxt.setPosition(24, 84, 192, 42);
+    gameoverimg.setPosition(24, 84, 192, 42);
  8002642:	f04f 0b2a 	mov.w	fp, #42	; 0x2a
  8002646:	2307      	movs	r3, #7
-    gameovertxt.setBitmap(touchgfx::Bitmap(BITMAP_GAMEOVER_ID));
+    gameoverimg.setBitmap(touchgfx::Bitmap(BITMAP_GAMEOVER_ID));
  8002648:	ee18 0a90 	vmov	r0, s17
  800264c:	a908      	add	r1, sp, #32
  800264e:	f8ad 3020 	strh.w	r3, [sp, #32]
  8002652:	f008 f9e6 	bl	800aa22 <_ZN8touchgfx5Image9setBitmapERKNS_6BitmapE>
-    gameovertxt.setPosition(24, 84, 192, 42);
+    gameoverimg.setPosition(24, 84, 192, 42);
  8002656:	23c0      	movs	r3, #192	; 0xc0
  8002658:	2254      	movs	r2, #84	; 0x54
  800265a:	ee18 0a90 	vmov	r0, s17
  800265e:	f8cd b000 	str.w	fp, [sp]
  8002662:	2118      	movs	r1, #24
  8002664:	f7ff ff24 	bl	80024b0 <_ZN8touchgfx8Drawable11setPositionEssss>
-    gameovertxt.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+    gameoverimg.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
  8002668:	ee18 0a90 	vmov	r0, s17
  800266c:	4629      	mov	r1, r5
  800266e:	f007 fb03 	bl	8009c78 <_ZN8touchgfx13ScalableImage19setScalingAlgorithmENS0_16ScalingAlgorithmE>
-    textArea1.setXY(42, 160);
+    yourscoretxt.setXY(42, 160);
  8002672:	22a0      	movs	r2, #160	; 0xa0
  8002674:	4659      	mov	r1, fp
  8002676:	4650      	mov	r0, sl
@@ -6310,7 +6310,7 @@ EndScreenViewBase::EndScreenViewBase()
  800269c:	e883 0007 	stmia.w	r3, {r0, r1, r2}
  80026a0:	4b53      	ldr	r3, [pc, #332]	; (80027f0 <_ZN17EndScreenViewBaseC1Ev+0x2b0>)
  80026a2:	9308      	str	r3, [sp, #32]
-    textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_ELCD));
+    yourscoretxt.setTypedText(touchgfx::TypedText(T___SINGLEUSE_ELCD));
  80026a4:	a908      	add	r1, sp, #32
  80026a6:	2303      	movs	r3, #3
  80026a8:	4650      	mov	r0, sl
@@ -6384,18 +6384,18 @@ EndScreenViewBase::EndScreenViewBase()
  8002734:	4638      	mov	r0, r7
  8002736:	f8ad 3024 	strh.w	r3, [sp, #36]	; 0x24
  800273a:	f008 f83b 	bl	800a7b4 <_ZN8touchgfx8TextArea12setTypedTextERKNS_9TypedTextE>
-    image1.setXY(-21, 288);
+    groundimg.setXY(-21, 288);
  800273e:	f44f 7290 	mov.w	r2, #288	; 0x120
  8002742:	4630      	mov	r0, r6
  8002744:	f06f 0114 	mvn.w	r1, #20
  8002748:	f7ff fea5 	bl	8002496 <_ZN8touchgfx8Drawable5setXYEss>
  800274c:	2302      	movs	r3, #2
-    image1.setBitmap(touchgfx::Bitmap(BITMAP_BASE_ID));
+    groundimg.setBitmap(touchgfx::Bitmap(BITMAP_BASE_ID));
  800274e:	a908      	add	r1, sp, #32
  8002750:	4630      	mov	r0, r6
  8002752:	f8ad 3020 	strh.w	r3, [sp, #32]
  8002756:	f008 f964 	bl	800aa22 <_ZN8touchgfx5Image9setBitmapERKNS_6BitmapE>
-    textArea3.setXY(10, 246);
+    restarttxt.setXY(10, 246);
  800275a:	4648      	mov	r0, r9
  800275c:	22f6      	movs	r2, #246	; 0xf6
  800275e:	210a      	movs	r1, #10
@@ -6415,7 +6415,7 @@ EndScreenViewBase::EndScreenViewBase()
  8002780:	e883 0007 	stmia.w	r3, {r0, r1, r2}
  8002784:	4b1a      	ldr	r3, [pc, #104]	; (80027f0 <_ZN17EndScreenViewBaseC1Ev+0x2b0>)
  8002786:	9308      	str	r3, [sp, #32]
-    textArea3.setTypedText(touchgfx::TypedText(T___SINGLEUSE_ZHAY));
+    restarttxt.setTypedText(touchgfx::TypedText(T___SINGLEUSE_ZHAY));
  8002788:	a908      	add	r1, sp, #32
  800278a:	4648      	mov	r0, r9
  800278c:	f8ad 5024 	strh.w	r5, [sp, #36]	; 0x24
@@ -8940,7 +8940,7 @@ void EndScreenView::handleTickEvent()
  800381e:	f89d 3007 	ldrb.w	r3, [sp, #7]
  8003822:	2b52      	cmp	r3, #82	; 0x52
  8003824:	d105      	bne.n	8003832 <_ZN13EndScreenView15handleTickEventEv+0x36>
-			static_cast<FrontendApplication*>(Application::getInstance())->handleKeyEvent(65); // keycode from image send
+			static_cast<FrontendApplication*>(Application::getInstance())->handleKeyEvent(65);
  8003826:	f008 fe7b 	bl	800c520 <_ZN8touchgfx11Application11getInstanceEv>
  800382a:	6803      	ldr	r3, [r0, #0]
  800382c:	2141      	movs	r1, #65	; 0x41
@@ -9308,7 +9308,7 @@ void PlayScreenView::tearDownScreen()
 08003a18 <_ZN14PlayScreenView15handleTickEventEv>:
 extern osMessageQueueId_t Queue1Handle;
 
-uint16_t PlayScreenView::finalscore = 0;
+
 
 void PlayScreenView::handleTickEvent()
 {
@@ -9427,7 +9427,7 @@ void PlayScreenView::handleTickEvent()
  8003aee:	4b16      	ldr	r3, [pc, #88]	; (8003b48 <_ZN14PlayScreenView15handleTickEventEv+0x130>)
  8003af0:	f8b4 2344 	ldrh.w	r2, [r4, #836]	; 0x344
  8003af4:	801a      	strh	r2, [r3, #0]
-			static_cast<FrontendApplication*>(Application::getInstance())->handleKeyEvent(65); // keycode from image send
+			static_cast<FrontendApplication*>(Application::getInstance())->handleKeyEvent(65);
  8003af6:	f008 fd13 	bl	800c520 <_ZN8touchgfx11Application11getInstanceEv>
  8003afa:	6803      	ldr	r3, [r0, #0]
  8003afc:	2141      	movs	r1, #65	; 0x41

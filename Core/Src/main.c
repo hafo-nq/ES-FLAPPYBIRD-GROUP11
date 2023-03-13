@@ -946,6 +946,8 @@ void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN 5 */
   /* Infinite loop */
+
+  // nếu nút đã được bấm và đang giữ, thì chỉ ghi nhận 1 lần bấm
   uint8_t buttonPressed = 0;
   for(;;)
   {
